@@ -51,6 +51,10 @@ Public Class MainForm
 
     End Sub
 
+    Private Sub Label19_Click(sender As Object, e As EventArgs) Handles Label19.Click
+
+    End Sub
+
     Dim StrSerialIn, StrSerialInRam As String
     Dim SetpTemperatura, SetpOxigeno, SetpPh, HTempe, HOxi, HPh, potencia As Integer
     Dim ValorMinOxigeno, ValorMaxOxigeno, ValorMinPh, ValorMaxPh, ValorMinTemp, ValorMaxTemp As Integer
@@ -336,6 +340,8 @@ Public Class MainForm
             DigitalPanelVoltaje1.Value = V1R
             DigitalPanelVoltaje2.Value = V2R
             DigitalPanelVoltaje3.Value = V3R
+
+            DigitalPanelPotencia.Value = (I1R * V1R) / 1000
 
             '-----------Enter the temperature and humidity values into the chart-----------------------------------
             Chart1.Series("Temperatura").Points.AddY(TempResult)

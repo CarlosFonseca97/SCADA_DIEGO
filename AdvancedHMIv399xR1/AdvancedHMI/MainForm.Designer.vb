@@ -23,15 +23,15 @@ Partial Class MainForm
     ' <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim ChartArea4 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend4 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series4 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim ChartArea5 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend5 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series5 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim ChartArea6 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend6 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series6 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea7 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend7 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series7 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea8 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend8 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series8 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea9 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend9 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series9 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ForceItemsIntoToolBox1 = New MfgControl.AdvancedHMI.Drivers.ForceItemsIntoToolbox()
         Me.TabControlPrincipal = New System.Windows.Forms.TabControl()
@@ -47,6 +47,7 @@ Partial Class MainForm
         Me.Fotovoltaico1 = New System.Windows.Forms.Button()
         Me.Datalogger1 = New System.Windows.Forms.Button()
         Me.Sensor2 = New System.Windows.Forms.Button()
+        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
         Me.PanelConnection1 = New System.Windows.Forms.Panel()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.ComboBoxBaudRate1 = New System.Windows.Forms.ComboBox()
@@ -90,14 +91,20 @@ Partial Class MainForm
         Me.PilotoOxigeno = New AdvancedHMIControls.PilotLight()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label14 = New System.Windows.Forms.Label()
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.CircularProgressBarOxigeno1 = New CircularProgressBar.CircularProgressBar()
         Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.CircularProgressBarTemp1 = New CircularProgressBar.CircularProgressBar()
         Me.Panel11 = New System.Windows.Forms.Panel()
         Me.CircularProgressBarPh1 = New CircularProgressBar.CircularProgressBar()
+        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.Chart3 = New System.Windows.Forms.DataVisualization.Charting.Chart()
         Me.Chart2 = New System.Windows.Forms.DataVisualization.Charting.Chart()
         Me.Chart1 = New System.Windows.Forms.DataVisualization.Charting.Chart()
@@ -117,6 +124,10 @@ Partial Class MainForm
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
+        Me.Panel22 = New System.Windows.Forms.Panel()
+        Me.EstadoMotor = New System.Windows.Forms.Label()
+        Me.Label47 = New System.Windows.Forms.Label()
+        Me.Motor1 = New AdvancedHMIControls.Motor()
         Me.TabPage5 = New System.Windows.Forms.TabPage()
         Me.Panel21 = New System.Windows.Forms.Panel()
         Me.Label37 = New System.Windows.Forms.Label()
@@ -140,6 +151,7 @@ Partial Class MainForm
         Me.Panel15 = New System.Windows.Forms.Panel()
         Me.Label29 = New System.Windows.Forms.Label()
         Me.TabPage6 = New System.Windows.Forms.TabPage()
+        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.ComboBoxPort = New System.Windows.Forms.ComboBox()
         Me.ComboBoxBaudRate = New System.Windows.Forms.ComboBox()
@@ -156,6 +168,7 @@ Partial Class MainForm
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Inicio1 = New System.Windows.Forms.Button()
         Me.DateTimeDisplay1 = New AdvancedHMIControls.DateTimeDisplay()
+        Me.PictureBoxStatusConnection = New System.Windows.Forms.PictureBox()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.LabelStatus = New System.Windows.Forms.Label()
         Me.SerialPort1 = New System.IO.Ports.SerialPort(Me.components)
@@ -165,38 +178,33 @@ Partial Class MainForm
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TimerSerial = New System.Windows.Forms.Timer(Me.components)
-        Me.Motor1 = New AdvancedHMIControls.Motor()
-        Me.Panel22 = New System.Windows.Forms.Panel()
-        Me.Label47 = New System.Windows.Forms.Label()
-        Me.EstadoMotor = New System.Windows.Forms.Label()
-        Me.PictureBoxStatusConnection = New System.Windows.Forms.PictureBox()
-        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.TabControlPrincipal.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.Panel3.SuspendLayout()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelConnection1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
         Me.Panel14.SuspendLayout()
         CType(Me.EthernetIPforCLXCom2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel10.SuspendLayout()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel11.SuspendLayout()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage3.SuspendLayout()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Chart3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Chart2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Chart1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage4.SuspendLayout()
         Me.Panel12.SuspendLayout()
+        Me.Panel22.SuspendLayout()
         Me.TabPage5.SuspendLayout()
         Me.Panel21.SuspendLayout()
         Me.Panel20.SuspendLayout()
@@ -206,17 +214,9 @@ Partial Class MainForm
         Me.Panel16.SuspendLayout()
         Me.Panel15.SuspendLayout()
         Me.TabPage6.SuspendLayout()
-        Me.Panel1.SuspendLayout()
-        Me.Panel22.SuspendLayout()
-        CType(Me.PictureBoxStatusConnection, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel1.SuspendLayout()
+        CType(Me.PictureBoxStatusConnection, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -388,6 +388,16 @@ Partial Class MainForm
         Me.Sensor2.Text = "Sensor"
         Me.Sensor2.UseVisualStyleBackColor = True
         '
+        'PictureBox9
+        '
+        Me.PictureBox9.Image = Global.MfgControl.AdvancedHMI.My.Resources.Resources.CARRERASNFONDO
+        Me.PictureBox9.Location = New System.Drawing.Point(-23, 20)
+        Me.PictureBox9.Name = "PictureBox9"
+        Me.PictureBox9.Size = New System.Drawing.Size(205, 160)
+        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox9.TabIndex = 4
+        Me.PictureBox9.TabStop = False
+        '
         'PanelConnection1
         '
         Me.PanelConnection1.BackColor = System.Drawing.Color.Transparent
@@ -511,160 +521,160 @@ Partial Class MainForm
         'Label46
         '
         Me.Label46.AutoSize = True
-        Me.Label46.Font = New System.Drawing.Font("DS ISO 1", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label46.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label46.Location = New System.Drawing.Point(548, 490)
         Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(58, 22)
+        Me.Label46.Size = New System.Drawing.Size(63, 20)
         Me.Label46.TabIndex = 30
         Me.Label46.Text = "SetP ="
         '
         'Label45
         '
         Me.Label45.AutoSize = True
-        Me.Label45.Font = New System.Drawing.Font("DS ISO 1", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label45.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label45.Location = New System.Drawing.Point(320, 488)
         Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(58, 22)
+        Me.Label45.Size = New System.Drawing.Size(63, 20)
         Me.Label45.TabIndex = 29
         Me.Label45.Text = "SetP ="
         '
         'Label44
         '
         Me.Label44.AutoSize = True
-        Me.Label44.Font = New System.Drawing.Font("DS ISO 1", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label44.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label44.Location = New System.Drawing.Point(74, 488)
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(58, 22)
+        Me.Label44.Size = New System.Drawing.Size(63, 20)
         Me.Label44.TabIndex = 28
         Me.Label44.Text = "SetP ="
         '
         'Label43
         '
         Me.Label43.AutoSize = True
-        Me.Label43.Font = New System.Drawing.Font("DS ISO 1", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label43.Location = New System.Drawing.Point(73, 527)
         Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(57, 18)
+        Me.Label43.Size = New System.Drawing.Size(60, 16)
         Me.Label43.TabIndex = 27
         Me.Label43.Text = "SpMax ="
         '
         'Label42
         '
         Me.Label42.AutoSize = True
-        Me.Label42.Font = New System.Drawing.Font("DS ISO 1", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label42.Location = New System.Drawing.Point(321, 528)
         Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(57, 18)
+        Me.Label42.Size = New System.Drawing.Size(60, 16)
         Me.Label42.TabIndex = 26
         Me.Label42.Text = "SpMax ="
         '
         'Label41
         '
         Me.Label41.AutoSize = True
-        Me.Label41.Font = New System.Drawing.Font("DS ISO 1", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label41.Location = New System.Drawing.Point(549, 530)
         Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(57, 18)
+        Me.Label41.Size = New System.Drawing.Size(60, 16)
         Me.Label41.TabIndex = 25
         Me.Label41.Text = "SpMax ="
         '
         'Label40
         '
         Me.Label40.AutoSize = True
-        Me.Label40.Font = New System.Drawing.Font("DS ISO 1", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label40.Location = New System.Drawing.Point(552, 512)
         Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(53, 18)
+        Me.Label40.Size = New System.Drawing.Size(56, 16)
         Me.Label40.TabIndex = 24
         Me.Label40.Text = "SpMin ="
         '
         'Label39
         '
         Me.Label39.AutoSize = True
-        Me.Label39.Font = New System.Drawing.Font("DS ISO 1", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label39.Location = New System.Drawing.Point(325, 510)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(53, 18)
+        Me.Label39.Size = New System.Drawing.Size(56, 16)
         Me.Label39.TabIndex = 23
         Me.Label39.Text = "SpMin ="
         '
         'Label38
         '
         Me.Label38.AutoSize = True
-        Me.Label38.Font = New System.Drawing.Font("DS ISO 1", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label38.Location = New System.Drawing.Point(77, 510)
         Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(53, 18)
+        Me.Label38.Size = New System.Drawing.Size(56, 16)
         Me.Label38.TabIndex = 22
         Me.Label38.Text = "SpMin ="
         '
         'SpMaxP
         '
         Me.SpMaxP.AutoSize = True
-        Me.SpMaxP.Font = New System.Drawing.Font("DS ISO 1", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SpMaxP.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SpMaxP.Location = New System.Drawing.Point(612, 530)
         Me.SpMaxP.Name = "SpMaxP"
-        Me.SpMaxP.Size = New System.Drawing.Size(15, 18)
+        Me.SpMaxP.Size = New System.Drawing.Size(15, 16)
         Me.SpMaxP.TabIndex = 21
         Me.SpMaxP.Text = "0"
         '
         'LabelSpPh
         '
         Me.LabelSpPh.AutoSize = True
-        Me.LabelSpPh.Font = New System.Drawing.Font("DS ISO 1", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.LabelSpPh.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
         Me.LabelSpPh.Location = New System.Drawing.Point(609, 491)
         Me.LabelSpPh.Name = "LabelSpPh"
-        Me.LabelSpPh.Size = New System.Drawing.Size(18, 22)
+        Me.LabelSpPh.Size = New System.Drawing.Size(19, 20)
         Me.LabelSpPh.TabIndex = 17
         Me.LabelSpPh.Text = "0"
         '
         'LabelSpTemperatura
         '
         Me.LabelSpTemperatura.AutoSize = True
-        Me.LabelSpTemperatura.Font = New System.Drawing.Font("DS ISO 1", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.LabelSpTemperatura.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
         Me.LabelSpTemperatura.Location = New System.Drawing.Point(383, 489)
         Me.LabelSpTemperatura.Name = "LabelSpTemperatura"
-        Me.LabelSpTemperatura.Size = New System.Drawing.Size(18, 22)
+        Me.LabelSpTemperatura.Size = New System.Drawing.Size(19, 20)
         Me.LabelSpTemperatura.TabIndex = 16
         Me.LabelSpTemperatura.Text = "0"
         '
         'SpMinP
         '
         Me.SpMinP.AutoSize = True
-        Me.SpMinP.Font = New System.Drawing.Font("DS ISO 1", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SpMinP.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SpMinP.Location = New System.Drawing.Point(611, 512)
         Me.SpMinP.Name = "SpMinP"
-        Me.SpMinP.Size = New System.Drawing.Size(15, 18)
+        Me.SpMinP.Size = New System.Drawing.Size(15, 16)
         Me.SpMinP.TabIndex = 20
         Me.SpMinP.Text = "0"
         '
         'SpMaxT
         '
         Me.SpMaxT.AutoSize = True
-        Me.SpMaxT.Font = New System.Drawing.Font("DS ISO 1", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SpMaxT.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SpMaxT.Location = New System.Drawing.Point(384, 529)
         Me.SpMaxT.Name = "SpMaxT"
-        Me.SpMaxT.Size = New System.Drawing.Size(15, 18)
+        Me.SpMaxT.Size = New System.Drawing.Size(15, 16)
         Me.SpMaxT.TabIndex = 19
         Me.SpMaxT.Text = "0"
         '
         'SpMinT
         '
         Me.SpMinT.AutoSize = True
-        Me.SpMinT.Font = New System.Drawing.Font("DS ISO 1", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SpMinT.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SpMinT.Location = New System.Drawing.Point(384, 511)
         Me.SpMinT.Name = "SpMinT"
-        Me.SpMinT.Size = New System.Drawing.Size(15, 18)
+        Me.SpMinT.Size = New System.Drawing.Size(15, 16)
         Me.SpMinT.TabIndex = 18
         Me.SpMinT.Text = "0"
         '
         'SpMaxO
         '
         Me.SpMaxO.AutoSize = True
-        Me.SpMaxO.Font = New System.Drawing.Font("DS ISO 1", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SpMaxO.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SpMaxO.Location = New System.Drawing.Point(135, 528)
         Me.SpMaxO.Name = "SpMaxO"
-        Me.SpMaxO.Size = New System.Drawing.Size(15, 18)
+        Me.SpMaxO.Size = New System.Drawing.Size(15, 16)
         Me.SpMaxO.TabIndex = 17
         Me.SpMaxO.Text = "0"
         '
@@ -780,30 +790,30 @@ Partial Class MainForm
         'LabelSpOxigeno
         '
         Me.LabelSpOxigeno.AutoSize = True
-        Me.LabelSpOxigeno.Font = New System.Drawing.Font("DS ISO 1", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.LabelSpOxigeno.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
         Me.LabelSpOxigeno.Location = New System.Drawing.Point(136, 488)
         Me.LabelSpOxigeno.Name = "LabelSpOxigeno"
-        Me.LabelSpOxigeno.Size = New System.Drawing.Size(18, 22)
+        Me.LabelSpOxigeno.Size = New System.Drawing.Size(19, 20)
         Me.LabelSpOxigeno.TabIndex = 15
         Me.LabelSpOxigeno.Text = "0"
         '
         'SpMinO
         '
         Me.SpMinO.AutoSize = True
-        Me.SpMinO.Font = New System.Drawing.Font("DS ISO 1", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SpMinO.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SpMinO.Location = New System.Drawing.Point(130, 510)
         Me.SpMinO.Name = "SpMinO"
-        Me.SpMinO.Size = New System.Drawing.Size(21, 18)
+        Me.SpMinO.Size = New System.Drawing.Size(18, 16)
         Me.SpMinO.TabIndex = 16
         Me.SpMinO.Text = " 0"
         '
         'AlarmaPh
         '
         Me.AlarmaPh.AutoSize = True
-        Me.AlarmaPh.Font = New System.Drawing.Font("DS ISO 1", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.AlarmaPh.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
         Me.AlarmaPh.Location = New System.Drawing.Point(538, 468)
         Me.AlarmaPh.Name = "AlarmaPh"
-        Me.AlarmaPh.Size = New System.Drawing.Size(101, 22)
+        Me.AlarmaPh.Size = New System.Drawing.Size(116, 20)
         Me.AlarmaPh.TabIndex = 13
         Me.AlarmaPh.Text = "Ph = Ninguna"
         '
@@ -830,10 +840,10 @@ Partial Class MainForm
         'AlarmaOxigeno
         '
         Me.AlarmaOxigeno.AutoSize = True
-        Me.AlarmaOxigeno.Font = New System.Drawing.Font("DS ISO 1", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AlarmaOxigeno.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AlarmaOxigeno.Location = New System.Drawing.Point(55, 466)
         Me.AlarmaOxigeno.Name = "AlarmaOxigeno"
-        Me.AlarmaOxigeno.Size = New System.Drawing.Size(136, 22)
+        Me.AlarmaOxigeno.Size = New System.Drawing.Size(160, 20)
         Me.AlarmaOxigeno.TabIndex = 11
         Me.AlarmaOxigeno.Text = "Oxigeno = Ninguna"
         '
@@ -860,10 +870,10 @@ Partial Class MainForm
         'AlarmaTemp
         '
         Me.AlarmaTemp.AutoSize = True
-        Me.AlarmaTemp.Font = New System.Drawing.Font("DS ISO 1", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.AlarmaTemp.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
         Me.AlarmaTemp.Location = New System.Drawing.Point(272, 466)
         Me.AlarmaTemp.Name = "AlarmaTemp"
-        Me.AlarmaTemp.Size = New System.Drawing.Size(172, 22)
+        Me.AlarmaTemp.Size = New System.Drawing.Size(197, 20)
         Me.AlarmaTemp.TabIndex = 9
         Me.AlarmaTemp.Text = "Temperatura = Ninguna"
         '
@@ -912,6 +922,16 @@ Partial Class MainForm
         Me.Label14.TabIndex = 3
         Me.Label14.Text = "Oxigeno"
         '
+        'PictureBox8
+        '
+        Me.PictureBox8.Image = Global.MfgControl.AdvancedHMI.My.Resources.Resources.kisspng_computer_icons_download_oxigeno_5b1b055a6b6ac0_87208075152849749844
+        Me.PictureBox8.Location = New System.Drawing.Point(64, 36)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(73, 74)
+        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox8.TabIndex = 4
+        Me.PictureBox8.TabStop = False
+        '
         'CircularProgressBarOxigeno1
         '
         Me.CircularProgressBarOxigeno1.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner
@@ -955,6 +975,16 @@ Partial Class MainForm
         Me.Panel10.Name = "Panel10"
         Me.Panel10.Size = New System.Drawing.Size(204, 315)
         Me.Panel10.TabIndex = 6
+        '
+        'PictureBox10
+        '
+        Me.PictureBox10.Image = Global.MfgControl.AdvancedHMI.My.Resources.Resources.pngwing
+        Me.PictureBox10.Location = New System.Drawing.Point(56, 36)
+        Me.PictureBox10.Name = "PictureBox10"
+        Me.PictureBox10.Size = New System.Drawing.Size(90, 74)
+        Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox10.TabIndex = 6
+        Me.PictureBox10.TabStop = False
         '
         'Label16
         '
@@ -1043,6 +1073,16 @@ Partial Class MainForm
         Me.CircularProgressBarPh1.TextMargin = New System.Windows.Forms.Padding(8, 8, 0, 0)
         Me.CircularProgressBarPh1.Value = 10
         '
+        'PictureBox11
+        '
+        Me.PictureBox11.Image = Global.MfgControl.AdvancedHMI.My.Resources.Resources.klipartz_com
+        Me.PictureBox11.Location = New System.Drawing.Point(58, 36)
+        Me.PictureBox11.Name = "PictureBox11"
+        Me.PictureBox11.Size = New System.Drawing.Size(90, 74)
+        Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox11.TabIndex = 7
+        Me.PictureBox11.TabStop = False
+        '
         'Label17
         '
         Me.Label17.AutoSize = True
@@ -1064,94 +1104,127 @@ Partial Class MainForm
         Me.TabPage3.Controls.Add(Me.Chart3)
         Me.TabPage3.Controls.Add(Me.Chart2)
         Me.TabPage3.Controls.Add(Me.Chart1)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 27)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(689, 555)
+        Me.TabPage3.Size = New System.Drawing.Size(689, 560)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "TabPage3"
         '
+        'PictureBox6
+        '
+        Me.PictureBox6.BackColor = System.Drawing.Color.White
+        Me.PictureBox6.Image = Global.MfgControl.AdvancedHMI.My.Resources.Resources.ph
+        Me.PictureBox6.Location = New System.Drawing.Point(552, 417)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(70, 62)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox6.TabIndex = 17
+        Me.PictureBox6.TabStop = False
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.BackColor = System.Drawing.Color.White
+        Me.PictureBox5.Image = Global.MfgControl.AdvancedHMI.My.Resources.Resources.O2
+        Me.PictureBox5.Location = New System.Drawing.Point(552, 236)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(70, 62)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox5.TabIndex = 16
+        Me.PictureBox5.TabStop = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.BackColor = System.Drawing.Color.White
+        Me.PictureBox4.Image = Global.MfgControl.AdvancedHMI.My.Resources.Resources.temp
+        Me.PictureBox4.Location = New System.Drawing.Point(552, 58)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(70, 62)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 15
+        Me.PictureBox4.TabStop = False
+        '
         'Chart3
         '
-        ChartArea4.AxisX.LabelStyle.ForeColor = System.Drawing.Color.Blue
-        ChartArea4.AxisX.LineColor = System.Drawing.Color.LightGray
-        ChartArea4.AxisX.MajorGrid.LineColor = System.Drawing.Color.LightGray
-        ChartArea4.AxisX.MajorTickMark.LineColor = System.Drawing.Color.LightGray
-        ChartArea4.AxisX.MinorGrid.LineColor = System.Drawing.Color.LightGray
-        ChartArea4.AxisX.MinorTickMark.LineColor = System.Drawing.Color.LightGray
-        ChartArea4.AxisX.Title = "Seconds (s)"
-        ChartArea4.AxisY.LabelStyle.ForeColor = System.Drawing.Color.Blue
-        ChartArea4.AxisY.LineColor = System.Drawing.Color.Transparent
-        ChartArea4.AxisY.MajorGrid.LineColor = System.Drawing.Color.Silver
-        ChartArea4.AxisY.MajorTickMark.Enabled = False
-        ChartArea4.AxisY.MajorTickMark.LineColor = System.Drawing.Color.LightGray
-        ChartArea4.AxisY.MinorGrid.LineColor = System.Drawing.Color.Silver
-        ChartArea4.AxisY.Title = "Ph"
-        ChartArea4.AxisY.TitleFont = New System.Drawing.Font("Sitka Small", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        ChartArea4.Name = "ChartArea3"
-        Me.Chart3.ChartAreas.Add(ChartArea4)
-        Legend4.Name = "Legend1"
-        Me.Chart3.Legends.Add(Legend4)
+        ChartArea7.AxisX.LabelStyle.ForeColor = System.Drawing.Color.Blue
+        ChartArea7.AxisX.LineColor = System.Drawing.Color.LightGray
+        ChartArea7.AxisX.MajorGrid.LineColor = System.Drawing.Color.LightGray
+        ChartArea7.AxisX.MajorTickMark.LineColor = System.Drawing.Color.LightGray
+        ChartArea7.AxisX.MinorGrid.LineColor = System.Drawing.Color.LightGray
+        ChartArea7.AxisX.MinorTickMark.LineColor = System.Drawing.Color.LightGray
+        ChartArea7.AxisX.Title = "Seconds (s)"
+        ChartArea7.AxisY.LabelStyle.ForeColor = System.Drawing.Color.Blue
+        ChartArea7.AxisY.LineColor = System.Drawing.Color.Transparent
+        ChartArea7.AxisY.MajorGrid.LineColor = System.Drawing.Color.Silver
+        ChartArea7.AxisY.MajorTickMark.Enabled = False
+        ChartArea7.AxisY.MajorTickMark.LineColor = System.Drawing.Color.LightGray
+        ChartArea7.AxisY.MinorGrid.LineColor = System.Drawing.Color.Silver
+        ChartArea7.AxisY.Title = "Ph"
+        ChartArea7.AxisY.TitleFont = New System.Drawing.Font("Sitka Small", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        ChartArea7.Name = "ChartArea3"
+        Me.Chart3.ChartAreas.Add(ChartArea7)
+        Legend7.Name = "Legend1"
+        Me.Chart3.Legends.Add(Legend7)
         Me.Chart3.Location = New System.Drawing.Point(29, 373)
         Me.Chart3.Name = "Chart3"
         Me.Chart3.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen
-        Series4.BorderColor = System.Drawing.Color.Black
-        Series4.BorderDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.DashDotDot
-        Series4.BorderWidth = 2
-        Series4.ChartArea = "ChartArea3"
-        Series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline
-        Series4.Color = System.Drawing.Color.Blue
-        Series4.Font = New System.Drawing.Font("Mongolian Baiti", 10.0!, System.Drawing.FontStyle.Bold)
-        Series4.Legend = "Legend1"
-        Series4.MarkerColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
-        Series4.MarkerImageTransparentColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
-        Series4.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Circle
-        Series4.Name = "Ph                "
-        Me.Chart3.Series.Add(Series4)
+        Series7.BorderColor = System.Drawing.Color.Black
+        Series7.BorderDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.DashDotDot
+        Series7.BorderWidth = 2
+        Series7.ChartArea = "ChartArea3"
+        Series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline
+        Series7.Color = System.Drawing.Color.Blue
+        Series7.Font = New System.Drawing.Font("Mongolian Baiti", 10.0!, System.Drawing.FontStyle.Bold)
+        Series7.Legend = "Legend1"
+        Series7.MarkerColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+        Series7.MarkerImageTransparentColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+        Series7.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Circle
+        Series7.Name = "Ph                "
+        Me.Chart3.Series.Add(Series7)
         Me.Chart3.Size = New System.Drawing.Size(634, 162)
         Me.Chart3.TabIndex = 14
         Me.Chart3.Text = "Chart3"
         '
         'Chart2
         '
-        ChartArea5.AxisX.LabelStyle.ForeColor = System.Drawing.Color.DarkTurquoise
-        ChartArea5.AxisX.LineColor = System.Drawing.Color.LightGray
-        ChartArea5.AxisX.MajorGrid.LineColor = System.Drawing.Color.LightGray
-        ChartArea5.AxisX.MajorTickMark.LineColor = System.Drawing.Color.LightGray
-        ChartArea5.AxisX.MinorGrid.LineColor = System.Drawing.Color.LightGray
-        ChartArea5.AxisX.MinorTickMark.LineColor = System.Drawing.Color.LightGray
-        ChartArea5.AxisX.Title = "Seconds (s)"
-        ChartArea5.AxisX.TitleFont = New System.Drawing.Font("Sitka Small", 9.0!, System.Drawing.FontStyle.Bold)
-        ChartArea5.AxisY.LabelStyle.ForeColor = System.Drawing.Color.DarkTurquoise
-        ChartArea5.AxisY.LineColor = System.Drawing.Color.Transparent
-        ChartArea5.AxisY.MajorGrid.LineColor = System.Drawing.Color.Silver
-        ChartArea5.AxisY.MajorTickMark.Enabled = False
-        ChartArea5.AxisY.MajorTickMark.LineColor = System.Drawing.Color.LightGray
-        ChartArea5.AxisY.MinorGrid.LineColor = System.Drawing.Color.Silver
-        ChartArea5.AxisY.Title = "ppm "
-        ChartArea5.AxisY.TitleFont = New System.Drawing.Font("Sitka Small", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        ChartArea5.Name = "ChartArea2"
-        Me.Chart2.ChartAreas.Add(ChartArea5)
-        Legend5.Name = "Legend1"
-        Me.Chart2.Legends.Add(Legend5)
+        ChartArea8.AxisX.LabelStyle.ForeColor = System.Drawing.Color.DarkTurquoise
+        ChartArea8.AxisX.LineColor = System.Drawing.Color.LightGray
+        ChartArea8.AxisX.MajorGrid.LineColor = System.Drawing.Color.LightGray
+        ChartArea8.AxisX.MajorTickMark.LineColor = System.Drawing.Color.LightGray
+        ChartArea8.AxisX.MinorGrid.LineColor = System.Drawing.Color.LightGray
+        ChartArea8.AxisX.MinorTickMark.LineColor = System.Drawing.Color.LightGray
+        ChartArea8.AxisX.Title = "Seconds (s)"
+        ChartArea8.AxisX.TitleFont = New System.Drawing.Font("Sitka Small", 9.0!, System.Drawing.FontStyle.Bold)
+        ChartArea8.AxisY.LabelStyle.ForeColor = System.Drawing.Color.DarkTurquoise
+        ChartArea8.AxisY.LineColor = System.Drawing.Color.Transparent
+        ChartArea8.AxisY.MajorGrid.LineColor = System.Drawing.Color.Silver
+        ChartArea8.AxisY.MajorTickMark.Enabled = False
+        ChartArea8.AxisY.MajorTickMark.LineColor = System.Drawing.Color.LightGray
+        ChartArea8.AxisY.MinorGrid.LineColor = System.Drawing.Color.Silver
+        ChartArea8.AxisY.Title = "ppm "
+        ChartArea8.AxisY.TitleFont = New System.Drawing.Font("Sitka Small", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        ChartArea8.Name = "ChartArea2"
+        Me.Chart2.ChartAreas.Add(ChartArea8)
+        Legend8.Name = "Legend1"
+        Me.Chart2.Legends.Add(Legend8)
         Me.Chart2.Location = New System.Drawing.Point(29, 194)
         Me.Chart2.Name = "Chart2"
         Me.Chart2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen
-        Series5.BorderColor = System.Drawing.Color.Black
-        Series5.BorderDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash
-        Series5.BorderWidth = 2
-        Series5.ChartArea = "ChartArea2"
-        Series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline
-        Series5.Color = System.Drawing.Color.DarkTurquoise
-        Series5.Font = New System.Drawing.Font("Sitka Small", 9.0!, System.Drawing.FontStyle.Bold)
-        Series5.IsValueShownAsLabel = True
-        Series5.LabelBorderDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot
-        Series5.LabelForeColor = System.Drawing.Color.Empty
-        Series5.Legend = "Legend1"
-        Series5.MarkerColor = System.Drawing.Color.Teal
-        Series5.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Triangle
-        Series5.Name = "Oxigeno       "
-        Me.Chart2.Series.Add(Series5)
+        Series8.BorderColor = System.Drawing.Color.Black
+        Series8.BorderDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash
+        Series8.BorderWidth = 2
+        Series8.ChartArea = "ChartArea2"
+        Series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline
+        Series8.Color = System.Drawing.Color.DarkTurquoise
+        Series8.Font = New System.Drawing.Font("Sitka Small", 9.0!, System.Drawing.FontStyle.Bold)
+        Series8.IsValueShownAsLabel = True
+        Series8.LabelBorderDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot
+        Series8.LabelForeColor = System.Drawing.Color.Empty
+        Series8.Legend = "Legend1"
+        Series8.MarkerColor = System.Drawing.Color.Teal
+        Series8.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Triangle
+        Series8.Name = "Oxigeno       "
+        Me.Chart2.Series.Add(Series8)
         Me.Chart2.Size = New System.Drawing.Size(634, 162)
         Me.Chart2.TabIndex = 13
         Me.Chart2.Text = "Chart2"
@@ -1159,41 +1232,41 @@ Partial Class MainForm
         'Chart1
         '
         Me.Chart1.BorderlineColor = System.Drawing.Color.Black
-        ChartArea6.AxisX.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        ChartArea6.AxisX.LineColor = System.Drawing.Color.LightGray
-        ChartArea6.AxisX.MajorGrid.LineColor = System.Drawing.Color.LightGray
-        ChartArea6.AxisX.MajorTickMark.LineColor = System.Drawing.Color.LightGray
-        ChartArea6.AxisX.MinorGrid.LineColor = System.Drawing.Color.LightGray
-        ChartArea6.AxisX.MinorTickMark.LineColor = System.Drawing.Color.LightGray
-        ChartArea6.AxisX.ScrollBar.LineColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
-        ChartArea6.AxisX.Title = "Seconds (s)"
-        ChartArea6.AxisX.TitleFont = New System.Drawing.Font("Sitka Small", 9.0!, System.Drawing.FontStyle.Bold)
-        ChartArea6.AxisY.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        ChartArea6.AxisY.LineColor = System.Drawing.Color.Transparent
-        ChartArea6.AxisY.MajorGrid.LineColor = System.Drawing.Color.Silver
-        ChartArea6.AxisY.MajorTickMark.Enabled = False
-        ChartArea6.AxisY.MajorTickMark.LineColor = System.Drawing.Color.LightGray
-        ChartArea6.AxisY.MinorGrid.LineColor = System.Drawing.Color.Silver
-        ChartArea6.AxisY.Title = "Temp °C"
-        ChartArea6.AxisY.TitleFont = New System.Drawing.Font("Sitka Small", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        ChartArea6.Name = "ChartArea1"
-        Me.Chart1.ChartAreas.Add(ChartArea6)
-        Legend6.Name = "Legend1"
-        Me.Chart1.Legends.Add(Legend6)
+        ChartArea9.AxisX.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        ChartArea9.AxisX.LineColor = System.Drawing.Color.LightGray
+        ChartArea9.AxisX.MajorGrid.LineColor = System.Drawing.Color.LightGray
+        ChartArea9.AxisX.MajorTickMark.LineColor = System.Drawing.Color.LightGray
+        ChartArea9.AxisX.MinorGrid.LineColor = System.Drawing.Color.LightGray
+        ChartArea9.AxisX.MinorTickMark.LineColor = System.Drawing.Color.LightGray
+        ChartArea9.AxisX.ScrollBar.LineColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+        ChartArea9.AxisX.Title = "Seconds (s)"
+        ChartArea9.AxisX.TitleFont = New System.Drawing.Font("Sitka Small", 9.0!, System.Drawing.FontStyle.Bold)
+        ChartArea9.AxisY.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        ChartArea9.AxisY.LineColor = System.Drawing.Color.Transparent
+        ChartArea9.AxisY.MajorGrid.LineColor = System.Drawing.Color.Silver
+        ChartArea9.AxisY.MajorTickMark.Enabled = False
+        ChartArea9.AxisY.MajorTickMark.LineColor = System.Drawing.Color.LightGray
+        ChartArea9.AxisY.MinorGrid.LineColor = System.Drawing.Color.Silver
+        ChartArea9.AxisY.Title = "Temp °C"
+        ChartArea9.AxisY.TitleFont = New System.Drawing.Font("Sitka Small", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        ChartArea9.Name = "ChartArea1"
+        Me.Chart1.ChartAreas.Add(ChartArea9)
+        Legend9.Name = "Legend1"
+        Me.Chart1.Legends.Add(Legend9)
         Me.Chart1.Location = New System.Drawing.Point(29, 17)
         Me.Chart1.Name = "Chart1"
         Me.Chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen
-        Series6.BorderColor = System.Drawing.Color.Black
-        Series6.BorderDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.DashDotDot
-        Series6.BorderWidth = 2
-        Series6.ChartArea = "ChartArea1"
-        Series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline
-        Series6.Color = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Series6.Font = New System.Drawing.Font("Mongolian Baiti", 10.0!, System.Drawing.FontStyle.Bold)
-        Series6.Legend = "Legend1"
-        Series6.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Diamond
-        Series6.Name = "Temperatura"
-        Me.Chart1.Series.Add(Series6)
+        Series9.BorderColor = System.Drawing.Color.Black
+        Series9.BorderDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.DashDotDot
+        Series9.BorderWidth = 2
+        Series9.ChartArea = "ChartArea1"
+        Series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline
+        Series9.Color = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Series9.Font = New System.Drawing.Font("Mongolian Baiti", 10.0!, System.Drawing.FontStyle.Bold)
+        Series9.Legend = "Legend1"
+        Series9.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Diamond
+        Series9.Name = "Temperatura"
+        Me.Chart1.Series.Add(Series9)
         Me.Chart1.Size = New System.Drawing.Size(634, 162)
         Me.Chart1.TabIndex = 10
         Me.Chart1.Text = "Chart1"
@@ -1423,11 +1496,11 @@ Partial Class MainForm
         Me.Label19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label19.Font = New System.Drawing.Font("Gadugi", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.Color.White
-        Me.Label19.Location = New System.Drawing.Point(262, 297)
+        Me.Label19.Location = New System.Drawing.Point(264, 297)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(89, 19)
+        Me.Label19.Size = New System.Drawing.Size(96, 19)
         Me.Label19.TabIndex = 10
-        Me.Label19.Text = "Power (W)"
+        Me.Label19.Text = "Power (Kw)"
         '
         'Label18
         '
@@ -1476,6 +1549,55 @@ Partial Class MainForm
         Me.Label11.Size = New System.Drawing.Size(142, 19)
         Me.Label11.TabIndex = 6
         Me.Label11.Text = "Current Line 1 (A)"
+        '
+        'Panel22
+        '
+        Me.Panel22.BackColor = System.Drawing.Color.FromArgb(CType(CType(9, Byte), Integer), CType(CType(66, Byte), Integer), CType(CType(95, Byte), Integer))
+        Me.Panel22.Controls.Add(Me.EstadoMotor)
+        Me.Panel22.Controls.Add(Me.Label47)
+        Me.Panel22.Controls.Add(Me.Motor1)
+        Me.Panel22.Location = New System.Drawing.Point(39, 26)
+        Me.Panel22.Name = "Panel22"
+        Me.Panel22.Size = New System.Drawing.Size(624, 152)
+        Me.Panel22.TabIndex = 8
+        '
+        'EstadoMotor
+        '
+        Me.EstadoMotor.AutoSize = True
+        Me.EstadoMotor.Font = New System.Drawing.Font("Consolas", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.EstadoMotor.ForeColor = System.Drawing.Color.White
+        Me.EstadoMotor.Location = New System.Drawing.Point(221, 124)
+        Me.EstadoMotor.Name = "EstadoMotor"
+        Me.EstadoMotor.Size = New System.Drawing.Size(162, 19)
+        Me.EstadoMotor.TabIndex = 9
+        Me.EstadoMotor.Text = "Estado : Inactivo"
+        '
+        'Label47
+        '
+        Me.Label47.AutoSize = True
+        Me.Label47.Font = New System.Drawing.Font("Consolas", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label47.ForeColor = System.Drawing.Color.DarkGray
+        Me.Label47.Location = New System.Drawing.Point(243, 1)
+        Me.Label47.Name = "Label47"
+        Me.Label47.Size = New System.Drawing.Size(117, 19)
+        Me.Label47.TabIndex = 8
+        Me.Label47.Text = "OXIGENADOR 1"
+        '
+        'Motor1
+        '
+        Me.Motor1.ComComponent = Me.EthernetIPforCLXCom2
+        Me.Motor1.LightColor = MfgControl.AdvancedHMI.Controls.Motor.LightColors.Green
+        Me.Motor1.Location = New System.Drawing.Point(239, 23)
+        Me.Motor1.Name = "Motor1"
+        Me.Motor1.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.Motor1.PLCAddressClick = ""
+        Me.Motor1.PLCAddressText = ""
+        Me.Motor1.PLCAddressValue = ""
+        Me.Motor1.PLCAddressVisible = ""
+        Me.Motor1.Rotation = System.Drawing.RotateFlipType.RotateNoneFlipNone
+        Me.Motor1.Size = New System.Drawing.Size(134, 91)
+        Me.Motor1.TabIndex = 7
+        Me.Motor1.Value = False
         '
         'TabPage5
         '
@@ -1704,6 +1826,16 @@ Partial Class MainForm
         Me.TabPage6.Size = New System.Drawing.Size(689, 555)
         Me.TabPage6.TabIndex = 5
         Me.TabPage6.Text = "TabPage6"
+        '
+        'PictureBox12
+        '
+        Me.PictureBox12.Image = Global.MfgControl.AdvancedHMI.My.Resources.Resources.cool_background2
+        Me.PictureBox12.Location = New System.Drawing.Point(0, 1)
+        Me.PictureBox12.Name = "PictureBox12"
+        Me.PictureBox12.Size = New System.Drawing.Size(689, 555)
+        Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox12.TabIndex = 4
+        Me.PictureBox12.TabStop = False
         '
         'Label10
         '
@@ -1960,8 +2092,17 @@ Partial Class MainForm
         Me.DateTimeDisplay1.Name = "DateTimeDisplay1"
         Me.DateTimeDisplay1.Size = New System.Drawing.Size(66, 21)
         Me.DateTimeDisplay1.TabIndex = 8
-        Me.DateTimeDisplay1.Text = "02:06:53"
+        Me.DateTimeDisplay1.Text = "03:49:34"
         Me.DateTimeDisplay1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'PictureBoxStatusConnection
+        '
+        Me.PictureBoxStatusConnection.BackColor = System.Drawing.Color.DarkRed
+        Me.PictureBoxStatusConnection.Location = New System.Drawing.Point(670, 8)
+        Me.PictureBoxStatusConnection.Name = "PictureBoxStatusConnection"
+        Me.PictureBoxStatusConnection.Size = New System.Drawing.Size(18, 13)
+        Me.PictureBoxStatusConnection.TabIndex = 8
+        Me.PictureBoxStatusConnection.TabStop = False
         '
         'Panel4
         '
@@ -2040,147 +2181,6 @@ Partial Class MainForm
         '
         Me.TimerSerial.Interval = 2000
         '
-        'Motor1
-        '
-        Me.Motor1.ComComponent = Me.EthernetIPforCLXCom2
-        Me.Motor1.LightColor = MfgControl.AdvancedHMI.Controls.Motor.LightColors.Green
-        Me.Motor1.Location = New System.Drawing.Point(239, 23)
-        Me.Motor1.Name = "Motor1"
-        Me.Motor1.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.Motor1.PLCAddressClick = ""
-        Me.Motor1.PLCAddressText = ""
-        Me.Motor1.PLCAddressValue = ""
-        Me.Motor1.PLCAddressVisible = ""
-        Me.Motor1.Rotation = System.Drawing.RotateFlipType.RotateNoneFlipNone
-        Me.Motor1.Size = New System.Drawing.Size(134, 91)
-        Me.Motor1.TabIndex = 7
-        Me.Motor1.Value = False
-        '
-        'Panel22
-        '
-        Me.Panel22.BackColor = System.Drawing.Color.FromArgb(CType(CType(9, Byte), Integer), CType(CType(66, Byte), Integer), CType(CType(95, Byte), Integer))
-        Me.Panel22.Controls.Add(Me.EstadoMotor)
-        Me.Panel22.Controls.Add(Me.Label47)
-        Me.Panel22.Controls.Add(Me.Motor1)
-        Me.Panel22.Location = New System.Drawing.Point(39, 26)
-        Me.Panel22.Name = "Panel22"
-        Me.Panel22.Size = New System.Drawing.Size(624, 152)
-        Me.Panel22.TabIndex = 8
-        '
-        'Label47
-        '
-        Me.Label47.AutoSize = True
-        Me.Label47.Font = New System.Drawing.Font("Consolas", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label47.ForeColor = System.Drawing.Color.DarkGray
-        Me.Label47.Location = New System.Drawing.Point(243, 1)
-        Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(117, 19)
-        Me.Label47.TabIndex = 8
-        Me.Label47.Text = "OXIGENADOR 1"
-        '
-        'EstadoMotor
-        '
-        Me.EstadoMotor.AutoSize = True
-        Me.EstadoMotor.Font = New System.Drawing.Font("Consolas", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.EstadoMotor.ForeColor = System.Drawing.Color.White
-        Me.EstadoMotor.Location = New System.Drawing.Point(221, 124)
-        Me.EstadoMotor.Name = "EstadoMotor"
-        Me.EstadoMotor.Size = New System.Drawing.Size(162, 19)
-        Me.EstadoMotor.TabIndex = 9
-        Me.EstadoMotor.Text = "Estado : Inactivo"
-        '
-        'PictureBoxStatusConnection
-        '
-        Me.PictureBoxStatusConnection.BackColor = System.Drawing.Color.DarkRed
-        Me.PictureBoxStatusConnection.Location = New System.Drawing.Point(670, 8)
-        Me.PictureBoxStatusConnection.Name = "PictureBoxStatusConnection"
-        Me.PictureBoxStatusConnection.Size = New System.Drawing.Size(18, 13)
-        Me.PictureBoxStatusConnection.TabIndex = 8
-        Me.PictureBoxStatusConnection.TabStop = False
-        '
-        'PictureBox9
-        '
-        Me.PictureBox9.Image = Global.MfgControl.AdvancedHMI.My.Resources.Resources.CARRERASNFONDO
-        Me.PictureBox9.Location = New System.Drawing.Point(-23, 20)
-        Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(205, 160)
-        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox9.TabIndex = 4
-        Me.PictureBox9.TabStop = False
-        '
-        'PictureBox8
-        '
-        Me.PictureBox8.Image = Global.MfgControl.AdvancedHMI.My.Resources.Resources.kisspng_computer_icons_download_oxigeno_5b1b055a6b6ac0_87208075152849749844
-        Me.PictureBox8.Location = New System.Drawing.Point(64, 36)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(73, 74)
-        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox8.TabIndex = 4
-        Me.PictureBox8.TabStop = False
-        '
-        'PictureBox10
-        '
-        Me.PictureBox10.Image = Global.MfgControl.AdvancedHMI.My.Resources.Resources.pngwing
-        Me.PictureBox10.Location = New System.Drawing.Point(56, 36)
-        Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(90, 74)
-        Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox10.TabIndex = 6
-        Me.PictureBox10.TabStop = False
-        '
-        'PictureBox11
-        '
-        Me.PictureBox11.Image = Global.MfgControl.AdvancedHMI.My.Resources.Resources.klipartz_com
-        Me.PictureBox11.Location = New System.Drawing.Point(58, 36)
-        Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(90, 74)
-        Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox11.TabIndex = 7
-        Me.PictureBox11.TabStop = False
-        '
-        'PictureBox6
-        '
-        Me.PictureBox6.BackColor = System.Drawing.Color.White
-        Me.PictureBox6.Image = Global.MfgControl.AdvancedHMI.My.Resources.Resources.ph
-        Me.PictureBox6.Location = New System.Drawing.Point(552, 417)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(70, 62)
-        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox6.TabIndex = 17
-        Me.PictureBox6.TabStop = False
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.BackColor = System.Drawing.Color.White
-        Me.PictureBox5.Image = Global.MfgControl.AdvancedHMI.My.Resources.Resources.O2
-        Me.PictureBox5.Location = New System.Drawing.Point(552, 236)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(70, 62)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox5.TabIndex = 16
-        Me.PictureBox5.TabStop = False
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.BackColor = System.Drawing.Color.White
-        Me.PictureBox4.Image = Global.MfgControl.AdvancedHMI.My.Resources.Resources.temp
-        Me.PictureBox4.Location = New System.Drawing.Point(552, 58)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(70, 62)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 15
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox12
-        '
-        Me.PictureBox12.Image = Global.MfgControl.AdvancedHMI.My.Resources.Resources.cool_background2
-        Me.PictureBox12.Location = New System.Drawing.Point(0, 1)
-        Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(689, 555)
-        Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox12.TabIndex = 4
-        Me.PictureBox12.TabStop = False
-        '
         'PictureBox2
         '
         Me.PictureBox2.Location = New System.Drawing.Point(45, 26)
@@ -2228,6 +2228,7 @@ Partial Class MainForm
         Me.TabControlPrincipal.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelConnection1.ResumeLayout(False)
         Me.PanelConnection1.PerformLayout()
         Me.TabPage2.ResumeLayout(False)
@@ -2237,17 +2238,25 @@ Partial Class MainForm
         CType(Me.EthernetIPforCLXCom2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel10.ResumeLayout(False)
         Me.Panel10.PerformLayout()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel11.ResumeLayout(False)
         Me.Panel11.PerformLayout()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage3.ResumeLayout(False)
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Chart3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Chart2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Chart1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage4.ResumeLayout(False)
         Me.Panel12.ResumeLayout(False)
         Me.Panel12.PerformLayout()
+        Me.Panel22.ResumeLayout(False)
+        Me.Panel22.PerformLayout()
         Me.TabPage5.ResumeLayout(False)
         Me.TabPage5.PerformLayout()
         Me.Panel21.ResumeLayout(False)
@@ -2266,19 +2275,10 @@ Partial Class MainForm
         Me.Panel15.PerformLayout()
         Me.TabPage6.ResumeLayout(False)
         Me.TabPage6.PerformLayout()
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        Me.Panel22.ResumeLayout(False)
-        Me.Panel22.PerformLayout()
         CType(Me.PictureBoxStatusConnection, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
